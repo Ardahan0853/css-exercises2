@@ -27,3 +27,62 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+
+/* solituon */
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-sidebar-flex{
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.sidebar{
+  flex-shrink: 0;
+}
+
+.card-flex{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.card{
+  max-width: 300px;
+  margin: 50px;
+  padding: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 35px;
+  padding-left: 10px;
+}
+
+ul{
+  list-style: none;
+  padding: 10px;
+}
+li{
+  margin: 10px;
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}

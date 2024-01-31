@@ -25,3 +25,40 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* soliution */ 
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+
+.header, .footer{
+  display: flex;
+  justify-content: space-between;
+}
+.footer{
+  background: rgb(209, 206, 206);
+  margin: 0;
+}
+
+
+
+.left-links, .right-links{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  gap: 20px;
+}
+
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: grey;
+}
